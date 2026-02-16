@@ -55,8 +55,6 @@ mkdir build && cd build
 cmake ..
 make
 
-# Send a file
-./file_sender /path/to/file.txt 192.168.1.100 4445
 
 
 ### Server Architecture
