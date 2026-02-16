@@ -78,20 +78,7 @@ The C server uses a classic forking model:
    - `SIGINT`: Graceful shutdown
    - `SIGALRM`: Connection timeout protection
 
-### Data Flow
 
-Client Server
-| |
-|─── Connect ──────────────>|
-| |─── fork() → Child
-| |
-|─── Filename + \n ────────>|
-| |─── Validate filename
-|─── File data ────────────>|
-| ... |─── Write to disk
-|─── Close connection ─────>|
-| |─── Child exits
-| |
 
 ### Process Lifecycle
 
