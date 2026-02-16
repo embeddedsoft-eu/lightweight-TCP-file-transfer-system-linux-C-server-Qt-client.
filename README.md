@@ -136,11 +136,7 @@ client_socket = accept(listener_socket, NULL, NULL);
 
 
 🛠️ Building for Embedded Systems
-### Cross-compilation example (ARM)
 
-
-# Install cross-compiler
-sudo apt-get install gcc-arm-linux-gnueabihf
 
 # Build for ARM
 
