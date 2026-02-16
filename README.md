@@ -143,12 +143,8 @@ client_socket = accept(listener_socket, NULL, NULL);
 sudo apt-get install gcc-arm-linux-gnueabihf
 
 # Build for ARM
-cd server
-make CC=arm-linux-gnueabihf-gcc
 
-# Check binary
-file file_server
-# Output: ELF 32-bit LSB executable, ARM, version 1 (SYSV)
+make CC=arm-linux-gnueabihf-gcc
 
 
 ### 📄 License
