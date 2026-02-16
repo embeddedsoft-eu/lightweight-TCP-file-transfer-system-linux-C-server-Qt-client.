@@ -27,7 +27,7 @@ A lightweight TCP file transfer system with a minimal linux C server and cross-p
 
 ### Server (on any Linux/Unix device)
 
-```bash
+```
 # Clone and build
 git clone https://github.com/yourusername/tcp-file-transfer.git
 cd tcp-file-transfer/server
@@ -38,6 +38,8 @@ sudo ./file_server
 
 # Custom port
 sudo ./file_server -p 5555
+
+```
 
 Client (Qt application)
 bash
